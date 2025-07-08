@@ -22,6 +22,7 @@
 .container {
     width: 80%;
     margin: 0 auto;
+    margin-top: 10px;
     border: 1px solid #ccc;
     padding: 20px;
 }
@@ -34,7 +35,46 @@
 .content__text {
     margin-bottom: 20px;
 }
-.content__buttoms {
+.content__buttons {
     display: flex;
     gap: 10px;
 }
+.button {
+    padding: 10px 20px;
+    border: 2px solid #a7c639;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.button--primary {
+    background-color: #a7c639;
+    color: #1f1f1f;
+    border-color: #1f1f1f;
+}
+.button--primary:hover {
+    background-color: #1f1f1f;
+    color: #a7c639;
+}
+.button--secondary {
+    background-color: #1f1f1f;
+    color: #a7c639;
+    border-color: #a7c639;
+}
+.button--secondary:hover {
+    background-color: #a7c639;
+    color: #1f1f1f;
+}
+.footer {
+    height: 100px;
+    background-color: #1f1f1f;
+    color: #a7c639;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.footer__text {
+    font-size: 1.2rem;
+}
+
+
