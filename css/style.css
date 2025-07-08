@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   
+}
+
+.page {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #6e6e6e;
+    color: #d6e77e;
+}
+.header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    color: #a7c639; 
+    background-color: #1f1f1f;
+}
+.header__title {
+    font-size: 1.8rem;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.content {
+    margin-top: 20px;
+}
+.content__title {
+    margin-bottom: 10px;
+}
+.content__text {
+    margin-bottom: 20px;
+}
+.content__buttoms {
+    display: flex;
+    gap: 10px;
+}
